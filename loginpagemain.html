@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white p-10 rounded-3xl shadow-lg w-full max-w-md">
+    <!-- Logo -->
+    <div class="flex justify-center mb-6">
+      <img src="images/logo.png" alt="Logo" class="w-14 h-14">
+    </div>
+
+    <!-- Welcome Text -->
+    <h2 class="text-center text-2xl font-semibold mb-1">Welcome back</h2>
+    <p class="text-center text-gray-500 mb-6">Please enter your details to sign in.</p>
+
+    <!-- Social Logins -->
+    <div class="flex justify-between mb-6 space-x-4">
+      <button class="flex-1 border rounded-lg p-2 flex items-center justify-center">
+        <img src=r"C:\Users\DELL\Documents\PROJECTS\GEN AI-FINANCIAL ASSISTANT\applelogo.png" alt="Apple" class="w-6 h-6">
+      </button>
+      <button class="flex-1 border rounded-lg p-2 flex items-center justify-center">
+        <img src=r"C:\Users\DELL\Documents\PROJECTS\GEN AI-FINANCIAL ASSISTANT\googlelogo.png" alt="Google" class="w-6 h-6">
+      </button>
+      <button class="flex-1 border rounded-lg p-2 flex items-center justify-center">
+        <img src=r"C:\Users\DELL\Documents\PROJECTS\GEN AI-FINANCIAL ASSISTANT\twitterlogo.png" alt="Twitter" class="w-6 h-6">
+      </button>
+    </div>
+
+    <!-- Divider -->
+    <div class="flex items-center mb-6">
+      <hr class="flex-grow border-gray-300">
+      <span class="mx-2 text-gray-400 text-sm">OR</span>
+      <hr class="flex-grow border-gray-300">
+    </div>
+
+    <!-- Email -->
+    <input type="email" placeholder="Enter your email..." class="w-full mb-4 border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+    <!-- Password -->
+    <input type="password" placeholder="••••••••••••" class="w-full mb-4 border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+    <!-- Remember me and forgot password -->
+    <div class="flex justify-between items-center mb-6 text-sm">
+      <label class="flex items-center space-x-2">
+        <input type="checkbox" class="form-checkbox">
+        <span>Remember me</span>
+      </label>
+      <a href="#" class="text-blue-600 hover:underline">Forgot password?</a>
+    </div>
+
+    <!-- Sign In Button -->
+    <button class="w-full bg-black text-white py-3 rounded-xl hover:opacity-90 transition-all font-medium">Sign in</button>
+
+    <!-- Sign Up Link -->
+    <p class="mt-6 text-center text-sm text-gray-500">
+      Don’t have an account yet? <a href="#" class="text-black font-medium hover:underline">Sign Up</a>
+    </p>
+  </div>
+</body>
+</html>
